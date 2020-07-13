@@ -1,0 +1,16 @@
+browser->server: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa
+
+note over browser:
+browser send a json message
+end note
+
+note over server:
+server make changes on backend
+end note
+
+server-->browser: 201 created {"message":"note created"}
+
+note over browser:
+browser executes the event handler
+that renders notes to display
+end note
