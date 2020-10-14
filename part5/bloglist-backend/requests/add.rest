@@ -1,0 +1,10 @@
+POST http://localhost:3001/api/blogs HTTP/1.1
+content-type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1sdXVra2FpIiwiaWQiOiI1Zjg3M2ZhYWJhYWZmZGIzYzU3NTEwZjIiLCJpYXQiOjE2MDI2OTkyNTB9.TiSVaHBoeZ-EoJ1BU8UYHSPnvWBcL8Ksg9aI2R0bWLI
+
+{
+    "title": "Yandex",
+    "author": "Yandex",
+    "url": "https://ya.ru",
+    "likes": 7
+}

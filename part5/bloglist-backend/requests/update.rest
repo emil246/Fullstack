@@ -1,0 +1,9 @@
+PUT http://localhost:3001/api/blogs/5f70ed319a0827302d9a5447 HTTP/1.1
+content-type: application/json
+
+{
+    "title": "Yandex",
+    "author": "Yandex",
+    "url": "https://ya.ru",
+    "likes": 7
+}
